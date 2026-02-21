@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --dark-blue: #274A6E;
+  --dark-gray: #465779;
+  --gray: #99b3c6;
+  --light-gray: #d3d7e7;
+  --white: #fff;
+
+  --ink-black: #0d1b2a;
+  --prussian-blue: #1b263b;
+  --dusk-blue: #415a77;
+  --lavender-grey: #778da9;
+  --alabaster-grey: #e0e1dd;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(45deg, rgba(86, 86, 86, 0.04) 0%, rgba(86, 86, 86, 0.04) 50%, rgba(169, 169, 169, 0.04) 50%, rgba(169, 169, 169, 0.04) 71%, rgba(251, 251, 251, 0.04) 71%, rgba(251, 251, 251, 0.04) 100%), linear-gradient(45deg, rgba(86, 86, 86, 0.04) 0%, rgba(86, 86, 86, 0.04) 56%, rgba(169, 169, 169, 0.04) 56%, rgba(169, 169, 169, 0.04) 67%, rgba(251, 251, 251, 0.04) 67%, rgba(251, 251, 251, 0.04) 100%), linear-gradient(135deg, rgba(86, 86, 86, 0.04) 0%, rgba(86, 86, 86, 0.04) 4%, rgba(169, 169, 169, 0.04) 4%, rgba(169, 169, 169, 0.04) 75%, rgba(251, 251, 251, 0.04) 75%, rgba(251, 251, 251, 0.04) 100%), linear-gradient(90deg, rgb(0, 0, 0), rgb(0, 0, 0));
+}
